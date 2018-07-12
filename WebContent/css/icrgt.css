@@ -1,0 +1,22 @@
+h2{
+	width:400px;
+	font:20px/30px "ºÚÌå" !important;
+	text-align:center;
+}
+.icregis{
+	width:400px;
+	border:1px solid #BCBCBC;
+	padding:5px;
+}
+.icregis label{
+	font:20px/24px "ºÚÌå";
+}
+.select{
+	width:213px !important;
+	height:33px !important;
+}
+#ts p{
+	font:18px/24px "ºÚÌå" !important;
+	color:red !important;
+	margin-top:6px !important;
+}

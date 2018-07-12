@@ -1,0 +1,25 @@
+.wra{
+	width:1200px;
+	margin:0 auto;
+	border:2px solid red;
+}
+.one .people{
+	width:770px;
+}
+.panel-body a{
+	display:block;
+	font:18px/32px "ºÚÌå";
+}
+.panel-body a:hover{
+	color:red;
+}
+
+.bottom{
+	width:100%;
+	background:blue;
+}
+.bottom p{
+	font:20px/50px "ºÚÌå";
+	color:#fff;
+	text-align: center;
+}
