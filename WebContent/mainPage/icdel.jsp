@@ -5,6 +5,7 @@
 <%@ include file="top.jsp"%>
    <h2>银行销毁</h2>
    <div class="container" style="width:780">
+   
      <div class="row" style="margin-top:15px">
 			<div class="col-md-12">
 				<div class="table-resposive">

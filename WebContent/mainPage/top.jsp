@@ -15,17 +15,23 @@
 </head>
 <body>
   <div class="wra container">
-     <div class="row">
-           <div class="col-md-4" >
-               <input type="hidden"name="uid" id = "uid">          
-           </div>
-     </div>
+
      <div class="row one">
-        <div class="col-md-4"><img class="logo"src="../imgs/logo.png"></div>
-        <div class="col-md-8"><img class="people"src="../imgs/top.png"></div>
+        <div class="col-md-4 col-xs-4"><img class="logo"src="../imgs/logo.png"></div>
+        <div class="col-md-8 col-xs-8"><img class="people"src="../imgs/top.png"></div>
+     </div>
+     <div class="row user">
+          <div class="col-md-4 col-xs-4 text-right">
+            <span>用户名：</span>
+          </div>
+          <div class="col-md-4 col-xs-4" id="uid">
+          </div>
+          <div class="col-md-4 col-xs-4 text-center tc">
+            <a href="../index.jsp">退出</a>
+        </div>
      </div>
      <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 col-xs-4">
            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
 			  <div class="panel panel-default">
 			    <div class="panel-heading" role="tab" id="headingOne">
@@ -90,6 +96,6 @@
 			  
 			</div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-xs-8">
         
        

@@ -4,11 +4,11 @@
 <script type="text/javascript" src="../js/computer.js"></script>
 <%@ include file="top.jsp"%>
   <div class="row" style="margin-top:15px">
-       <h2 class="col-md-5">计算器</h2>
+       <h2 class="col-md-5 col-xs-5">计算器</h2>
   </div>
   <div class="container" style="width:780">
      <div class="row" style="margin-top:15px">
-        <form name="computer" class="computer col-md-5">
+        <form name="computer" class="computer col-md-5 col-xs-5">
            <input type="text" id="text" name="text" class="text" disabled="disabled" value="0">
 			<div class="buttons">
 			    <input type="button" value="←" class="button id="dele" onClick="funback()">

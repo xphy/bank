@@ -1,7 +1,8 @@
   $(function(){	  
      var id = window.location.search;
      var uid=id.split("=")[1];
-     $("#uid").val(uid);
+     var $i=("<i>"+uid+"</i>");
+     $("#uid").append($i);
      var $a1 = $("a:contains('银行卡注册')");
      var $a2 = $("a:contains('银行卡销毁')");
      var $a3 = $("a:contains('存入/支出管理')");
