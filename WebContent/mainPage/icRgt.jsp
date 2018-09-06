@@ -3,7 +3,10 @@
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/icrgt.js"></script>
 <%@ include file="top.jsp"%>
-   <h2>银行卡注册</h2>
+   <div class="row">
+     <div class="col-md-3"></div>
+     <div class="col-md-4">
+        <h2>银行卡注册</h2>
    <div class="icregis">
    <form action="icrgt.do"method="post" >
 	    <div class="form-group bank" >
@@ -42,4 +45,8 @@
         </div>
    </form>
    </div>
+     </div>
+     <div class="col-md-4"></div>     
+   </div>
+   
 <%@ include file="bottom.jsp"%>

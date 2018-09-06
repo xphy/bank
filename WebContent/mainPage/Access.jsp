@@ -3,7 +3,10 @@
 <script type="text/javascript" src="../js/jquery.min.js"></script>
 <script type="text/javascript" src="../js/access.js"></script>
 <%@ include file="top.jsp"%>
-   <h2>存入管理</h2>
+  <div class="row">
+     <div class="col-md-3"></div>
+     <div class="col-md-4">
+        <h2>存入支出管理</h2>
    <div class="icregis">
      <form action=""method="post" >
 	    <div class="form-group bank" >
@@ -48,4 +51,7 @@
         </div>
 	  </form>
    </div>
+     </div>
+   </div>
+   
 <%@ include file="bottom.jsp"%>

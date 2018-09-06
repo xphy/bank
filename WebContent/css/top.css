@@ -2,9 +2,31 @@
 	width:1200px;
 	margin:0 auto;
 	border:2px solid #e6e6e6;
+	margin-top:20px;
+}
+.myrow{
+	margin-top:15px;
 }
 .one .people{
-	width:770px;
+	padding-right:0px ;
+	position: relative;
+}
+.one .people img{
+	width:882px;
+	height:124px;
+}
+.user{
+	position: absolute;
+	top:24px;
+	right:15px;
+	font:20px/24px "ºÚÌå";
+	text-align: right;
+	font-weight: bold;
+	color:#fff;
+}
+.user div a{
+	color:#fff;
+	text-align: right;
 }
 .panel-body a{
 	display:block;
@@ -14,6 +36,10 @@
 	color:red;
 }
 
+.logo img{
+	width: 269px;
+	height:124px;
+}
 .bottom{
 	width:100%;
 	background:blue;
@@ -22,11 +48,4 @@
 	font:20px/50px "ºÚÌå";
 	color:#fff;
 	text-align: center;
-}
-.user{
-	width:360px;
-	font:20px/50px "ºÚÌå";
-	border:1px solid #e6e6e6;
-	margin-left:5px;
-	margin-bottom:5px;
 }
